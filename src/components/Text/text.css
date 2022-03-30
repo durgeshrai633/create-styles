@@ -1,0 +1,53 @@
+.text {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+.text_heading {
+  height: 200px;
+  display: flex;
+  border: 2px solid green;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.text__form {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  gap: 20px;
+}
+.input__group {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+.form__input {
+  padding:5px 8px;
+  outline: none;
+  border: 2px solid #ddd;
+}
+.input__group label {
+  font-size: 16px;
+  font-weight: 500;
+}
+.flex--col {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 10px;
+}
+.text_output {
+  display: flex;
+}
+.copy {
+  border: 2px solid #ddd;
+  flex: 1;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  margin: 5px;
+}

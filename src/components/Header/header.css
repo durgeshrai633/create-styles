@@ -1,0 +1,25 @@
+.nav {
+  display: flex;
+  /* border: 2px solid green; */
+  margin: auto;
+  justify-content: center;
+  padding: 10px;
+}
+.nav__list {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+  /* border: 1px solid red; */
+  margin: 0;
+  padding: 0;
+}
+.nav__list__item {
+  font-size: 16px;
+  padding: 10px;
+  font-weight: 700;
+  text-shadow: 3px 1px #ddd;
+  letter-spacing: 0.7;
+}
+.nav__list__item a {
+  color: inherit;
+}
