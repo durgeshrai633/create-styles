@@ -1,0 +1,20 @@
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.social-media {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+.social-media > a {
+  color: white;
+}

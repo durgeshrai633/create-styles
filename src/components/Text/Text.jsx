@@ -13,14 +13,6 @@ function Text() {
     navigator.clipboard.writeText(copyText.cssText);
     alert("Copied the text: " + copyText.cssText);
   };
-
-  // useEffect(() => {
-  //   let cssCode = "";
-  //   for (let keys in styles) {
-  //     cssCode = cssCode + keys + ": " + styles[keys] + "; ";
-  //   }
-  //   setCss(cssCode);
-  // }, [styles]);
   return (
     <section className='container'>
       <div className='text'>
